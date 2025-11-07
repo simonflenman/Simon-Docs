@@ -10,11 +10,18 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
+      justify-content: flex-start;
       min-height: 100vh;
       margin: 0;
       background: #f8f9fa;
-      padding: 20px;
+      padding: 40px 20px;
+    }
+    img {
+      width: 230px;
+      height: 230px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 30px;
     }
     h1 {
       margin-bottom: 10px;
@@ -50,6 +57,7 @@
   </style>
 </head>
 <body>
+  <img src="profile.png" alt="Profile picture of Simon Flenman">
   <h1>Documents – Simon Flenman</h1>
   <p>Below you can download my CV and recommendation letter in PDF format, or visit my GitHub and LinkedIn.</p>
   <div class="button-container">
